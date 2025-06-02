@@ -25,5 +25,5 @@ A clean, interactive web-based calculator built using Streamlit. This intuitive 
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/wesley-nfj/streamlit-calculator.git
+   git clone https://github.com/wesley-nfj/streamlit-calculator-app.git
 
