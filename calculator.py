@@ -14,12 +14,13 @@ st.markdown(
      """,
 unsafe_allow_html=True
 )
+st.set_page_config(page_title="CALCULATOR APP", layout="wide", page_icon="🧮")
 st.title("Calculator🧮")
-num1= st.number_input("Enter first number", min_value=0)
-num2= st.number_input("Enter second number", min_value=0)
+num1= st.number_input("Enter first number")
+num2= st.number_input("Enter second number",)
 operation=st.selectbox("Choose operator",["+", "-","*","/"])
 if st.button("Calculate"):
-    if num1 is not None and num2 is not None and operation:
+   if num1 is not None and num2 is not None and operation:
       if operation =="+":
         result =num1 + num2
       elif operation =="-":
@@ -32,7 +33,7 @@ if st.button("Calculate"):
         else:
           result="Error, cannot divide by zero"
       st.success(f"Result:{result}")
-else:
-  st.error("Please enter both numbers and an operator!")
+   else:
+     st.error("Please enter both numbers and an operator!")
         
        
