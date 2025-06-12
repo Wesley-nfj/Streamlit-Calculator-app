@@ -2,6 +2,7 @@
 
 A clean, interactive web-based calculator built using Streamlit. This intuitive application allows users to perform basic arithmetic operations with a user-friendly interface and a stylish custom background.
 
+Try app [HERE](http://localhost:8501/)
 ---
 
 ## ✨ Features
